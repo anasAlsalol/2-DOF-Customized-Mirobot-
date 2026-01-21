@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<package format="3">
+  <name>dynamics_control</name>
+  <version>0.0.1</version>
+  <description>2-DOF dynamics control node (Lagrangian & Newton-Euler) for CoppeliaSim simROS2</description>
+  <maintainer email="you@example.com">You</maintainer>
+  <license>Apache-2.0</license>
+
+  <buildtool_depend>ament_python</buildtool_depend>
+
+  <depend>rclpy</depend>
+  <depend>std_msgs</depend>
+  <depend>sensor_msgs</depend>
+  <depend>geometry_msgs</depend>
+  <depend>nav_msgs</depend>
+  <depend>visualization_msgs</depend>
+  <depend>tf2_ros</depend>
+  <depend>numpy</depend>
+  <depend>matplotlib</depend>
+  <depend>scipy</depend>
+
+  <export>
+    <build_type>ament_python</build_type>
+  </export>
+</package>
